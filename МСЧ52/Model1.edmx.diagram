@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8c676dea3eab41879133c73110acae54" Name="Diagram1">
+        <EntityTypeShape EntityType="Inform_sistema3Model.Diagnosis" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inform_sistema3Model.Doctors" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inform_sistema3Model.Facilities" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inform_sistema3Model.Mesto_rab_uch" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inform_sistema3Model.Pastients" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inform_sistema3Model.Uchastok" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Inform_sistema3Model.Users" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Inform_sistema3Model.FK_Diagnosis_Pastients" ManuallyRouted="false" />
+        <AssociationConnector Association="Inform_sistema3Model.FK_Doctors_Doctors" ManuallyRouted="false" />
+        <AssociationConnector Association="Inform_sistema3Model.FK_Pastients_Doctors" ManuallyRouted="false" />
+        <AssociationConnector Association="Inform_sistema3Model.FK_Facilities_Pastients" ManuallyRouted="false" />
+        <AssociationConnector Association="Inform_sistema3Model.FK_Mesto_rab_uch_Pastients" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
